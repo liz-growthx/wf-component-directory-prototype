@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 import { Component } from '@/lib/components-data';
 import { tierColor } from '@/lib/utils';
@@ -19,11 +20,11 @@ export default function ComponentTile({ component, categorySlug }: Props) {
         padding: '12px 14px',
         textDecoration: 'none',
         background: '#fff',
-        transition: 'border-color 0.15s',
+        transition: 'border-color 0.15s, background 0.15s',
         cursor: 'pointer',
       }}
-      onMouseEnter={e => (e.currentTarget.style.borderColor = '#4353FF')}
-      onMouseLeave={e => (e.currentTarget.style.borderColor = '#e5e7eb')}
+      onMouseEnter={e => { e.currentTarget.style.borderColor = '#4353FF'; e.currentTarget.style.background = '#f5f6ff'; }}
+      onMouseLeave={e => { e.currentTarget.style.borderColor = '#e5e7eb'; e.currentTarget.style.background = '#fff'; }}
     >
       <div className="flex items-start justify-between gap-2 mb-1">
         <span style={{ fontSize: 14, fontWeight: 600, color: '#111827' }}>{component.emoji} {component.name}</span>

@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 import { Component } from '@/lib/components-data';
 import { tierColor, icpColor } from '@/lib/utils';

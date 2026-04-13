@@ -29,7 +29,7 @@ const demos: Record<string, () => JSX.Element> = {
               }}
             >
               {item.q}
-              <span style={{ color: '#6b7280', fontSize: 18 }}>{open === i ? '−' : '+'}</span>
+              <span style={{ color: '#6b7280', fontSize: 18 }}>{open === i ? '\u2212' : '+'}</span>
             </button>
             {open === i && (
               <p style={{ fontSize: 13, color: '#9ca3af', margin: '0 0 12px', lineHeight: 1.6 }}>{item.a}</p>
@@ -146,47 +146,55 @@ function getImportSnippet(id: string, name: string): string {
   return `import { ${pascalName} } from '@webflow/components/${id}'\n\nexport default function MyPage() {\n  return (\n    <div>\n      <${pascalName}\n        className="my-component"\n        onInteract={() => console.log('interacted')}\n      />\n    </div>\n  )\n}`;
 }
 
+function colorLine(line: string): React.ReactNode {
+  const importMatch = line.match(/^(import)\s+(\{[^}]+\})\s+(from)\s+('[^']+')(.*)$/);
+  if (importMatch) return <>
+    <span style={{ color: '#c678dd' }}>import</span>
+    {' '}
+    <span style={{ color: '#61afef' }}>{importMatch[2]}</span>
+    {' '}
+    <span style={{ color: '#c678dd' }}>from</span>
+    {' '}
+    <span style={{ color: '#98c379' }}>{importMatch[4]}</span>
+    {importMatch[5]}
+  </>;
+
+  const exportMatch = line.match(/^(export default function)\s+(\w+)(.*)$/);
+  if (exportMatch) return <>
+    <span style={{ color: '#c678dd' }}>export default function</span>
+    {' '}
+    <span style={{ color: '#61afef' }}>{exportMatch[2]}</span>
+    <span style={{ color: '#abb2bf' }}>{exportMatch[3]}</span>
+  </>;
+
+  if (/^\s*return\s*\(/.test(line)) return <span>
+    {line.match(/^(\s*)/)?.[1]}
+    <span style={{ color: '#c678dd' }}>return</span>
+    <span style={{ color: '#abb2bf' }}>{line.replace(/^\s*return/, '')}</span>
+  </span>;
+
+  const jsxMatch = line.match(/^(\s*)(<\/?)(\w+)([\s\S]*)$/);
+  if (jsxMatch) return <span>
+    {jsxMatch[1]}
+    <span style={{ color: '#e06c75' }}>{jsxMatch[2]}{jsxMatch[3]}</span>
+    {jsxMatch[4].split(/(\w+=\{[^}]+\}|\w+="[^"]*")/).map((part, i) => {
+      if (/^\w+=/.test(part)) {
+        const [k, ...v] = part.split('=');
+        return <span key={i}> <span style={{ color: '#d19a66' }}>{k}</span><span style={{ color: '#abb2bf' }}>={v.join('=')}</span></span>;
+      }
+      return <span key={i} style={{ color: '#abb2bf' }}>{part}</span>;
+    })}
+  </span>;
+
+  if (/^\s*[{})]+\s*$/.test(line)) return <span style={{ color: '#abb2bf' }}>{line}</span>;
+
+  return <span style={{ color: '#abb2bf' }}>{line}</span>;
+}
+
 function syntaxHighlight(code: string): React.ReactNode {
-  const lines = code.split('\n');
-  return lines.map((line, li) => {
-    const parts: React.ReactNode[] = [];
-    let remaining = line;
-    let key = 0;
-
-    const push = (text: string, color?: string) => {
-      parts.push(
-        <span key={key++} style={color ? { color } : {}}>
-          {text}
-        </span>
-      );
-    };
-
-    const importMatch = remaining.match(/^(import)\s+(\{[^}]+\})\s+(from)\s+('[^']+')(.*)$/);
-    if (importMatch) {
-      push('import', '#c678dd');
-      push(' ');
-      push(importMatch[2], '#61afef');
-      push(' ');
-      push('from', '#c678dd');
-      push(' ');
-      push(importMatch[4], '#98c379');
-      push(importMatch[5]);
-      return <div key={li}>{parts}<br /></div>;
-    }
-
-    const exportMatch = remaining.match(/^(export default function)\s+(\w+)/);
-    if (exportMatch) {
-      push('export default function', '#c678dd');
-      push(' ');
-      push(exportMatch[2], '#61afef');
-      remaining = remaining.slice(exportMatch[0].length);
-      push(remaining);
-      return <div key={li}>{parts}<br /></div>;
-    }
-
-    push(remaining);
-    return <div key={li}>{parts}<br /></div>;
-  });
+  return code.split('\n').map((line, i) => (
+    <div key={i}>{colorLine(line)}</div>
+  ));
 }
 
 export default function DemoArea({ componentId, componentName, emoji }: Props) {
@@ -196,7 +204,6 @@ export default function DemoArea({ componentId, componentName, emoji }: Props) {
 
   return (
     <div style={{ background: '#141417', borderRadius: 12, border: '1px solid #2d2d35', marginBottom: 32, overflow: 'hidden' }}>
-      {/* Window chrome */}
       <div style={{ background: '#1a1a1f', borderBottom: '1px solid #2d2d35', padding: '10px 16px', display: 'flex', alignItems: 'center', gap: 12 }}>
         <div style={{ display: 'flex', gap: 6 }}>
           <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#ff5f57' }} />
@@ -220,8 +227,6 @@ export default function DemoArea({ componentId, componentName, emoji }: Props) {
           ))}
         </div>
       </div>
-
-      {/* Content */}
       <div style={{ padding: 32, minHeight: 200, display: 'flex', alignItems: 'center', justifyContent: tab === 'preview' ? 'center' : 'flex-start' }}>
         {tab === 'preview' ? (
           DemoComponent ? <DemoComponent /> : (
