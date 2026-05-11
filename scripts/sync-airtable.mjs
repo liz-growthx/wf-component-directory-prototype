@@ -154,3 +154,10 @@ console.log(`  Top components by JTBD link count:`);
 out.slice(0, 10).forEach(c => {
   console.log(`    ${c.name.padEnd(28)} | ${c.tier} | ${c.buildWithCount} JTBD | ${c.worksWithCount} integrations`);
 });
+
+// ============================================================================
+// Auto-sync: also runs on a GitHub Actions cron — see .github/workflows/sync-airtable.yml
+// Required GitHub repo secrets:
+//   AIRTABLE_API_KEY  Airtable PAT
+//   AIRTABLE_BASE_ID  appLyTndwH3eBAeFK
+// ============================================================================

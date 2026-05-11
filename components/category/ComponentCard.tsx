@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import { Component } from '@/lib/components-data';
-import { tierColor, icpColor } from '@/lib/utils';
 
 interface Props {
   component: Component;
@@ -9,43 +8,30 @@ interface Props {
 }
 
 export default function ComponentCard({ component, categorySlug }: Props) {
-  const tc = tierColor(component.tier);
   return (
     <Link
       href={`/components/${categorySlug}/${component.id}`}
       style={{ textDecoration: 'none', display: 'block' }}
     >
       <div
-        style={{ border: '1px solid #e5e7eb', borderRadius: 10, overflow: 'hidden', cursor: 'pointer', background: '#fff' }}
-        onMouseEnter={e => (e.currentTarget.style.borderColor = '#4353FF')}
-        onMouseLeave={e => (e.currentTarget.style.borderColor = '#e5e7eb')}
+        style={{
+          border: '1px solid #e2e8f0', borderRadius: 12, overflow: 'hidden',
+          cursor: 'pointer', background: '#fff', transition: 'all 0.15s',
+        }}
+        onMouseEnter={e => { e.currentTarget.style.borderColor = '#4353FF'; e.currentTarget.style.transform = 'translateY(-1px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(67,83,255,0.08)'; }}
+        onMouseLeave={e => { e.currentTarget.style.borderColor = '#e2e8f0'; e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none'; }}
       >
-        {/* Preview area */}
         <div style={{
-          height: 120,
-          background: 'linear-gradient(135deg, #f9fafb 0%, #EEF0FF 100%)',
+          height: 132,
+          background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          fontSize: 42,
+          fontSize: 48, borderBottom: '1px solid #f1f5f9',
         }}>
           {component.emoji}
         </div>
-        {/* Info */}
-        <div style={{ padding: '12px 14px' }}>
-          <div className="flex items-center justify-between mb-1">
-            <span style={{ fontSize: 14, fontWeight: 700, color: '#111827' }}>{component.name}</span>
-            <span style={{ background: tc.bg, color: tc.text, fontSize: 10, fontWeight: 600, borderRadius: 4, padding: '2px 6px' }}>{component.tier}</span>
-          </div>
-          <p style={{ fontSize: 12, color: '#6b7280', lineHeight: 1.4, margin: '0 0 10px' }}>{component.desc}</p>
-          <div className="flex flex-wrap gap-1">
-            {component.icp.map(i => {
-              const ic = icpColor(i);
-              return (
-                <span key={i} style={{ background: ic.bg, color: ic.text, fontSize: 10, fontWeight: 500, borderRadius: 4, padding: '2px 6px' }}>
-                  {i}
-                </span>
-              );
-            })}
-          </div>
+        <div style={{ padding: '16px 18px' }}>
+          <h3 style={{ fontSize: 15, fontWeight: 600, color: '#0f172a', margin: '0 0 6px' }}>{component.name}</h3>
+          <p style={{ fontSize: 13, color: '#64748b', lineHeight: 1.5, margin: 0 }}>{component.desc}</p>
         </div>
       </div>
     </Link>

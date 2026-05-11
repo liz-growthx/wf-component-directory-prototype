@@ -1,0 +1,50 @@
+name: Sync Airtable data
+
+# Pulls the latest Code Components + linked JTBDs + Integration Pages from Airtable
+# and commits any changes to lib/airtable-data.json. Vercel auto-deploys the commit.
+#
+# Required repo secrets:
+#   AIRTABLE_API_KEY   Airtable PAT with read scope on the Content OS base
+#   AIRTABLE_BASE_ID   appLyTndwH3eBAeFK (the Content OS base)
+
+on:
+  schedule:
+    - cron: '0 6 * * *'      # daily at 06:00 UTC
+    - cron: '0 18 * * *'     # daily at 18:00 UTC
+  workflow_dispatch:           # manual trigger
+  push:
+    paths:
+      - 'scripts/sync-airtable.mjs'   # auto-sync when the script itself changes
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Run sync
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+        run: node scripts/sync-airtable.mjs
+
+      - name: Commit + push if changed
+        run: |
+          git config user.email "279692493+GrowthX-Pod-C@users.noreply.github.com"
+          git config user.name "GrowthX-Pod-C"
+          if git diff --quiet lib/airtable-data.json; then
+            echo "No changes — Airtable data is up to date."
+            exit 0
+          fi
+          git add lib/airtable-data.json
+          git commit -m "chore: auto-sync airtable data ($(date -u +%Y-%m-%d))"
+          git push
