@@ -14,8 +14,12 @@ on:
     - cron: '0 18 * * *'     # daily at 18:00 UTC
   workflow_dispatch:           # manual trigger
   push:
+    branches:
+      - main
+      - pod-c/airtable-flywheel
     paths:
-      - 'scripts/sync-airtable.mjs'   # auto-sync when the script itself changes
+      - 'scripts/sync-airtable.mjs'
+      - '.github/workflows/sync-airtable.yml'
 
 jobs:
   sync:

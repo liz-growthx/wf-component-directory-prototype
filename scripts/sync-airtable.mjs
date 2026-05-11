@@ -3,6 +3,7 @@
 // and writes a static JSON file consumed by the Next.js app.
 //
 // Run: node scripts/sync-airtable.mjs
+// Last sync test: 2026-05-11
 
 import Airtable from 'airtable';
 import 'dotenv/config';
