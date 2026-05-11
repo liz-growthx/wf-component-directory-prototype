@@ -1,0 +1,2376 @@
+[
+  {
+    "id": "recVZhVudnjkiBcm6",
+    "key": "accordion",
+    "name": "Accordion",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recyb4Fsmp800Ieee",
+        "title": "How to Add Accordion Auto Close in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recSYvN15wnfUrVTr",
+        "title": "How to Fix CMS-Linked Accordion Items Not Opening in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recApPFAGW96xujY4",
+        "title": "How to Fix Accordion Items Not Fully Closing in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 90
+      },
+      {
+        "id": "reciiHy9j8rykO1kP",
+        "title": "How to Link Accordion Interactions Across Elements in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recvUEBFnQqTxvLg0",
+        "title": "How to Deep-Link to a Specific Accordion Item in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recWAge6btjcyGbiu",
+        "title": "How to Fix Accordion Expanding to Full Screen Before Closing in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recK2WUOIc33HAr8I",
+        "title": "How to Fix Accordion Interactions Behaving Inconsistently in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recV8HS9BKJ5JTpzp",
+        "title": "How to Trigger Image Changes from Accordion Clicks in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recqvFwfohn3xPKPZ",
+        "title": "How to Fix Accordion Not Responding After Interaction in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recOiBMZgjf92mUqO",
+        "title": "How to Build FAQ Page with CMS Topic Sections in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 10,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recXyr055yKt4c1Km",
+    "key": "tabs",
+    "name": "Tabs",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recN7nutRtZKqb33S",
+        "title": "How to Build Dynamic CMS-Driven Tabs in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recRJdjvqBNpUsCQK",
+        "title": "How to Fix Tabs Disappearing After Publishing in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recd061UicvbYlbco",
+        "title": "How to Build a Private Tabbed User Dashboard in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recuEurIUi8UY6Ou4",
+    "key": "badge",
+    "name": "Badge / Tag",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recN6d9oQuC7j2qKR",
+        "title": "How to Build Dynamic Status Badges from CMS Data in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recdnuXd9Fqo17GH0",
+        "title": "How to Add Category Tags to Blog Posts in Webflow CMS",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recccUQaNDSgL4Iva",
+        "title": "How to Build Colored Pill Badges for Product Tags in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recjAZl3LtNh69wAO",
+        "title": "How to Add a Notification Count Badge to a Nav Icon in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 4,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recxhUolwqETx5Tzf",
+    "key": "dropdown_menu",
+    "name": "Dropdown Menu",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recVdxVoNamoRJpth",
+        "title": "How to Make mobile menu SCROLLABLE in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Learn",
+        "searchVolume": 720
+      },
+      {
+        "id": "recBEOk51CdBbaotr",
+        "title": "How to Fix Mobile Menu Animation Not Triggering on First Click in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Troubleshoot",
+        "searchVolume": 90
+      },
+      {
+        "id": "recP6BJcA8kLfH142",
+        "title": "How to Add Modal Inside Mobile Dropdown Menu in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recGpyAye4vSjpib1",
+        "title": "How to Build a Custom Dropdown Menu in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recw30mxF1iYWpHGV",
+        "name": "Make",
+        "slug": "make",
+        "url": "https://webflow.com/integrations/make",
+        "tier": "C - Longtail",
+        "published": true,
+        "clicks": 170,
+        "ctr": 0.0078,
+        "position": 11.5
+      }
+    ],
+    "buildWithCount": 4,
+    "worksWithCount": 1
+  },
+  {
+    "id": "recyQybaYZLByocIy",
+    "key": "modal",
+    "name": "Modal / Dialog",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rec4Je2ylrv3Y809j",
+        "title": "How to Open a Typeform Modal on Button Click in Webflow",
+        "url": "https://webflow.com/blog/webflow-typeform-modal-createpopup",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "recyCiM1Yb4SfaaRC",
+        "title": "How to Prevent Page Scroll When a Modal Is Open in Webflow",
+        "url": "https://webflow.com/blog/prevent-page-scroll-webflow-modal",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recftQU3TuyuJaiMQ",
+        "title": "How to Show a Calendly Pop-Up Modal in Webflow",
+        "url": "https://webflow.com/blog/calendly-popup-modal-webflow",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "rechb7egLsyXmXQYz",
+        "title": "How to Fix Escape Key Closing Only the First CMS Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 170
+      },
+      {
+        "id": "recak6WxxhxQs8CMh",
+        "title": "How to Fix Modal Display Issues in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 170
+      },
+      {
+        "id": "recpL7ITxCqwgMYC0",
+        "title": "How to Stop Video Playback When Closing a Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "recZWusJscpUGCgFc",
+        "title": "How to Create a Custom Modal in Webflow",
+        "url": null,
+        "status": "Parked",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "recYaQlcLfv6ib8lO",
+        "title": "How to Add Cookie-Based Display Control to a Webflow Modal",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "rec3nB77xBu9sw4sj",
+        "title": "How to Build a CMS-Driven Google Map with Info Popups in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
+        "id": "recF7Me9zle2LNmGd",
+        "title": "How to Add Blog Modals with Dynamic URLs in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recF5obAeKSWBezRd",
+        "title": "How to Block Background Scroll on Modal Open in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recpdfYyCcV5EuBJN",
+        "title": "How to Add a Dynamic Gradient Overlay to CMS Background Images in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recP6BJcA8kLfH142",
+        "title": "How to Add Modal Inside Mobile Dropdown Menu in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recbFV5RUcvYMJ0Ai",
+        "title": "How to Add Full CMS Lightbox in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "rec6DB0lDs2j6OfoW",
+        "title": "How to Re-render a Slider When Opening a Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recgVz95U72WL7BSG",
+        "title": "How to Trigger a Modal After Form Submission in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "rec1Gq80ZLZJvKma4",
+        "title": "How to Stop YouTube Video Playback After Closing a Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recWkrErf03ii6SyY",
+        "title": "How to Add Scrollable modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recDHeEZI1R6dDrBz",
+        "title": "How to Stop Vimeo or YouTube Video Playback After Closing a Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recv1QwXH4oGzE0TM",
+        "title": "How to Show a One-Time Exit-Intent Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recgtg5RpZUIoHRVN",
+        "title": "How to Fix Fullscreen CMS Modal Not Filling Screen in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recUfIpXqZiiRDsUp",
+        "title": "How to Build a Modal Popup Inside a Slider in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recRenebZ6WqYCml2",
+        "title": "How to Link CMS Tooltips to CMS Modals in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recj5tOwA6YpNbGzg",
+        "title": "How to Build a Responsive Case Study Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recmtvFkJFnblRNrK",
+        "title": "How to Add a Buy Button with Modal Checkout in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recsiXTVgSGhrH2pU",
+        "title": "How to Display Lightbox Images as Squares in a Grid in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recdApxrRsPKz848X",
+        "title": "How to Fix Lightbox Images Not Showing on Mobile in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recQGplFuEIzDgg4J",
+        "title": "How to Use and Test the Webflow Lightbox Beta",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recKfsFk0zBLiiX31",
+        "name": "Calendly",
+        "slug": "calendly",
+        "url": "https://webflow.com/integrations/calendly",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 876,
+        "ctr": 0.0439,
+        "position": 13.6
+      },
+      {
+        "id": "recli8Qv3R6VVsQ69",
+        "name": "Vimeo",
+        "slug": "vimeo",
+        "url": "https://webflow.com/integrations/vimeo",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 745,
+        "ctr": 0.0638,
+        "position": 10.5
+      },
+      {
+        "id": "recSZ2Vdx6Chn5M8V",
+        "name": "Square",
+        "slug": "square",
+        "url": "https://webflow.com/integrations/square",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 306,
+        "ctr": 0.0243,
+        "position": 19.4
+      },
+      {
+        "id": "recYtztOXD2zcpuW4",
+        "name": "YouTube",
+        "slug": "youtube",
+        "url": "https://webflow.com/integrations/youtube",
+        "tier": null,
+        "published": true,
+        "clicks": 148,
+        "ctr": 0.0194,
+        "position": 8.8
+      },
+      {
+        "id": "recaHveAYgmqPTcNa",
+        "name": "Typeform",
+        "slug": "typeform",
+        "url": "https://webflow.com/integrations/typeform",
+        "tier": "B - Standard",
+        "published": true,
+        "clicks": 73,
+        "ctr": 0.0234,
+        "position": 10.2
+      },
+      {
+        "id": "recbZuhpnzmLR75nn",
+        "name": "Hover",
+        "slug": "hover-com",
+        "url": "https://webflow.com/integrations/hover-com",
+        "tier": "B - Standard",
+        "published": true,
+        "clicks": 26,
+        "ctr": 0.0208,
+        "position": 8.6
+      },
+      {
+        "id": "recQV4XMEJ9auB2yq",
+        "name": "Chec",
+        "slug": "chec",
+        "url": "https://webflow.com/integrations/chec",
+        "tier": "C - Longtail",
+        "published": false,
+        "clicks": 4,
+        "ctr": 0.2353,
+        "position": 13.7
+      },
+      {
+        "id": "recaKcKx9HReQl5wz",
+        "name": "Popup",
+        "slug": "popup",
+        "url": "https://webflow.com/integrations/popup",
+        "tier": null,
+        "published": false,
+        "clicks": 0,
+        "ctr": 0,
+        "position": null
+      }
+    ],
+    "buildWithCount": 28,
+    "worksWithCount": 8
+  },
+  {
+    "id": "rec3auE4ypxWfTgVd",
+    "key": "carousel",
+    "name": "Carousel / Slider",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "High",
+    "appGenCategory": "animation_effect",
+    "appGenDemand": 400,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recr64jqjBVf8DGUt",
+        "title": "How to Add bxSlider as a Ticker-Style Carousel in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 720
+      },
+      {
+        "id": "recVocGblKlTI9ReJ",
+        "title": "How to Integrate Owl Carousel with Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 480
+      },
+      {
+        "id": "recQgS4QaYbtyzxEt",
+        "title": "How to Create a Custom Slider or Carousel in Webflow Without Code",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Vibe Coder",
+        "intent": "Learn",
+        "searchVolume": 320
+      },
+      {
+        "id": "reccyXdzjQGmAYRg4",
+        "title": "How to Build a 3D Carousel in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "rec85DJEixQLd958D",
+        "title": "How to Build an Infinite Loop Carousel with Hover Pause in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Troubleshoot",
+        "searchVolume": 90
+      },
+      {
+        "id": "reciunahMamPDRyoV",
+        "title": "How to Fix Owl Carousel Not Working in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recdCQO4j0PV6pkn3",
+        "title": "How to Fix Product Carousel Design Issues in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 90
+      },
+      {
+        "id": "rec4a1a4Qkx4U7mN3",
+        "title": "How to Fix Carousel Display in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 90
+      },
+      {
+        "id": "recQyXfCcRaxuvTvf",
+        "title": "How to Create an Album Gallery in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "rec6DB0lDs2j6OfoW",
+        "title": "How to Re-render a Slider When Opening a Modal in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recUfIpXqZiiRDsUp",
+        "title": "How to Build a Modal Popup Inside a Slider in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recmnOKh0zsLb0m4l",
+        "title": "How to Fix a Slider Not Being Responsive in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 30
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recw30mxF1iYWpHGV",
+        "name": "Make",
+        "slug": "make",
+        "url": "https://webflow.com/integrations/make",
+        "tier": "C - Longtail",
+        "published": true,
+        "clicks": 170,
+        "ctr": 0.0078,
+        "position": 11.5
+      },
+      {
+        "id": "recbZuhpnzmLR75nn",
+        "name": "Hover",
+        "slug": "hover-com",
+        "url": "https://webflow.com/integrations/hover-com",
+        "tier": "B - Standard",
+        "published": true,
+        "clicks": 26,
+        "ctr": 0.0208,
+        "position": 8.6
+      },
+      {
+        "id": "recaKcKx9HReQl5wz",
+        "name": "Popup",
+        "slug": "popup",
+        "url": "https://webflow.com/integrations/popup",
+        "tier": null,
+        "published": false,
+        "clicks": 0,
+        "ctr": 0,
+        "position": null
+      }
+    ],
+    "buildWithCount": 12,
+    "worksWithCount": 3
+  },
+  {
+    "id": "recUjGNPlc2ONDKMz",
+    "key": "tooltip",
+    "name": "Tooltip",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "interactive_widget",
+    "appGenDemand": 370,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recaB2mA2zfI6sdLd",
+        "title": "How to Add Tooltips to Webflow with Tooltipster",
+        "url": "https://webflow.com/blog/webflow-tooltips-tippy-js",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 210
+      },
+      {
+        "id": "recRenebZ6WqYCml2",
+        "title": "How to Link CMS Tooltips to CMS Modals in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recbcb13uFlpGekVd",
+        "title": "How to Build Tooltips in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recFXpjgq4y3WQrCc",
+    "key": "data_table",
+    "name": "Data Table",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "High",
+    "appGenCategory": "data_display",
+    "appGenDemand": 280,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recrfw8kfBtt3QhbO",
+        "title": "How to Automate E-commerce Orders from Webflow to Airtable via Zapier",
+        "url": "https://webflow.com/blog/automate-webflow-orders-airtable-zapier",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recemHRmnXsGIi9VK",
+        "title": "How to Add an Editable Mailchimp Newsletter in Webflow",
+        "url": "https://webflow.com/blog/connect-webflow-forms-mailchimp",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Marketer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recEKL1OQ0eRYDStC",
+        "title": "How to Display Airtable Data in Webflow",
+        "url": "https://webflow.com/blog/display-airtable-data-webflow",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "rec1aBIPPaKr5DqSz",
+        "title": "How to Fix Zapier-to-Airtable Data Sync in Webflow",
+        "url": "https://webflow.com/blog/fix-zapier-airtable-webflow-sync",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recpu54DmryE3WTY3",
+        "title": "How to Review Membership Applications with Airtable in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "rec8MQEcgUpWA1RqJ",
+        "title": "How to Embed a Resizable OpenStreetMap in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "reccTnmFTwBunJ4MA",
+        "title": "How to Add Airtable as Database for Content in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recSXbtYbxkWx2VpY",
+        "title": "How to Add Airtable Data in Webflow Dashboard",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recfUEOSWxD7CP2j8",
+        "title": "How to Troubleshoot Airtable Sync Issues in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 90
+      },
+      {
+        "id": "recopGYf3YLs7nvqC",
+        "title": "How to Batch Import Entries to Webflow CMS Using Zapier & Airtable (& maybe Postman)",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recVQz3mKCmULGqyx",
+        "title": "How to Fix 'Checkout Is Disabled on This Site' in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recToaHvayZNttTHi",
+        "title": "How to Build a Dynamic Table of Contents from Webflow CMS",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recOX4rQwJxCDeSuR",
+        "title": "How to Run Calculations Inside a CMS-Populated Data Table in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recguvAEpLWCHx9XM",
+        "title": "How to Build a Data Table in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recEkZG76cOGUpzF0",
+        "name": "Mailchimp",
+        "slug": "mailchimp",
+        "url": "https://webflow.com/integrations/mailchimp",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 948,
+        "ctr": 0.0571,
+        "position": 11.9
+      },
+      {
+        "id": "recjZAvGU7ykzz6NJ",
+        "name": "Zapier",
+        "slug": "Zapier",
+        "url": "https://webflow.com/integrations/zapier",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 149,
+        "ctr": 0.0047,
+        "position": 7.1
+      },
+      {
+        "id": "rechN53gGVRM1t2zp",
+        "name": "Airtable",
+        "slug": "Airtable",
+        "url": "https://webflow.com/integrations/airtable-forms",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 0,
+        "ctr": 0,
+        "position": null
+      },
+      {
+        "id": "recQV4XMEJ9auB2yq",
+        "name": "Chec",
+        "slug": "chec",
+        "url": "https://webflow.com/integrations/chec",
+        "tier": "C - Longtail",
+        "published": false,
+        "clicks": 4,
+        "ctr": 0.2353,
+        "position": 13.7
+      }
+    ],
+    "buildWithCount": 14,
+    "worksWithCount": 4
+  },
+  {
+    "id": "rec9FsZNVbLd7vDxy",
+    "key": "date_picker",
+    "name": "Date Picker",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "form_input",
+    "appGenDemand": 240,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rectJw9aDvoVhDu57",
+        "title": "How to Embed a Booking.com Widget in Webflow",
+        "url": "https://webflow.com/blog/embed-booking-com-widget-webflow",
+        "status": "Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 140
+      },
+      {
+        "id": "rech500hxacTqI8Of",
+        "title": "How to Build a Scheduling System in Webflow (Calendly Alternatives)",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Decision",
+        "searchVolume": 390
+      },
+      {
+        "id": "recN5UurcxCwmIw1y",
+        "title": "How to Build a Tour Booking Website in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 140
+      },
+      {
+        "id": "reccyziHQKCgIo66g",
+        "title": "How to Build Multi-user Google Calendar Booking in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
+        "id": "recByUr1IbgPOvg7U",
+        "title": "How to Use Webflow E-commerce for Hotel Bookings",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
+        "id": "rec0klJFX1Pnr4HLY",
+        "title": "How to Build a Booking Calendar with Payments in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recrDoXiaRpdKOnrx",
+        "title": "How to Build a CMS-Driven Booking System in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "reczwV3JxbLmU7r95",
+        "title": "How to Build Complex Booking System (Multi-activity) in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recRChjyptUt6fSZH",
+        "title": "How to Set Up a Booking System in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "rec3R96wChdPDq4pS",
+        "title": "How to Build a User Dashboard with Login and Booking in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "rec6fZ1sybqccN51E",
+        "title": "How to Build a Hotel Booking Calendar in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "rec7eTGjGGY8774am",
+        "title": "How to Add File Attachments to a Booking Form in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recR0u4GaIyI6thi6",
+        "title": "How to Build a Hotel Booking System in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recZH6JX3CFwuhaQS",
+        "title": "How to Build a Booking System for a Club or Venue in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recd5XTwtkODWfqhx",
+        "title": "How to Build a Hotel Booking System in Webflow Without Code",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Vibe Coder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recHOIGhrPW5kHreK",
+        "title": "How to Build a Date Picker in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recKfsFk0zBLiiX31",
+        "name": "Calendly",
+        "slug": "calendly",
+        "url": "https://webflow.com/integrations/calendly",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 876,
+        "ctr": 0.0439,
+        "position": 13.6
+      },
+      {
+        "id": "recMfJ9f7F5HDJhHS",
+        "name": "Booking",
+        "slug": "booking",
+        "url": "https://webflow.com/integrations/booking",
+        "tier": null,
+        "published": false,
+        "clicks": 0,
+        "ctr": 0,
+        "position": null
+      },
+      {
+        "id": "rec82Yd33akyafN76",
+        "name": "Payment",
+        "slug": "payment",
+        "url": "https://webflow.com/integrations/payment",
+        "tier": null,
+        "published": false,
+        "clicks": 0,
+        "ctr": 0,
+        "position": null
+      }
+    ],
+    "buildWithCount": 16,
+    "worksWithCount": 3
+  },
+  {
+    "id": "recoQTSPbtmzRvvoJ",
+    "key": "multi_step_form",
+    "name": "Multi-Step Form",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "form_input",
+    "appGenDemand": 240,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rec1ZtBnkFZSeLlkd",
+        "title": "How to Build a Multi-Step Form in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recbCU6C0pbseLITg",
+        "title": "How to Add a Multi-Step Form Progress Indicator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recahpw88UtELpJfw",
+        "title": "How to Build a Multi-Step Checkout Form in Webflow E-commerce",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "rec5lWXzujNQVL4Gg",
+        "title": "How to Add Conditional Logic to a Multi-Step Form in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recTdeSNAmwrLR27e",
+        "title": "How to Build a Multi-Step Quote Request Form in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 5,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recsEH89c3QbCxAfP",
+    "key": "pricing_calculator",
+    "name": "Pricing Calculator",
+    "tier": "T1",
+    "status": "Planned",
+    "showcaseReadiness": "High",
+    "appGenCategory": "calculator_tool",
+    "appGenDemand": 160,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recXiV3kZcuYcWKY3",
+        "title": "How to Build a Cost Estimate Calculator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 110
+      },
+      {
+        "id": "recwaNLXqNy6HzPfI",
+        "title": "How to Style an Embedded Calculator in Webflow with Custom Code",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
+        "id": "recQNKbaDPyIbbkRx",
+        "title": "How to Build a CMS-Driven Pricing Calculator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recDJfVn52oPQwOTc",
+        "title": "How to Integrate a JavaScript Pricing Calculator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recMNieqF77AsHxJ7",
+        "title": "How to Build a Simple Savings Calculator with JavaScript in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recQEWbpaT6qn1uPO",
+        "title": "How to Build a Price Calculator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 6,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recNbE3mX4hHVzyZO",
+    "key": "alert_toast",
+    "name": "Alert / Toast",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recaQlcYaXDIH22RQ",
+        "title": "How to Build a Toast Notification Component in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recY4RkhGOysRskKi",
+        "title": "How to Build a Dismissable Announcement Banner in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recbCmh4Hqp0osTcg",
+        "title": "How to Build a Toast Notification System in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recb1T0K4MzbbbZFa",
+        "title": "How to Add a Dismissable Announcement Bar to a Webflow Site",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 4,
+    "worksWithCount": 0
+  },
+  {
+    "id": "reczfU6aaRELo8vqj",
+    "key": "toggle_switch",
+    "name": "Toggle / Switch",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "ui_element",
+    "appGenDemand": 680,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recDhS1tAF3jB0Vtw",
+        "title": "How to Build a Toggle Switch Component in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recixir2A58iEXprb",
+        "title": "How to Add a Dark Mode Toggle to Your Webflow Site",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recufNKlAO82a7H1O",
+        "title": "How to Build a Pricing Toggle Between Monthly and Annual Plans in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "rec5qrGCMxBCVMBl3",
+    "key": "breadcrumb",
+    "name": "Breadcrumb",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "navigation_search",
+    "appGenDemand": 540,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rec6TtbJbLL6W9M97",
+        "title": "How to Build Breadcrumb Navigation in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recc8Y2Gyjw1jP9ni",
+        "title": "How to Add Dynamic Breadcrumbs from CMS Collections in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recU0m8wZv5KemrQt",
+        "title": "How to Style Breadcrumbs with Separators and Icons in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "rec797UOONnWf4PyK",
+    "key": "hero_section",
+    "name": "Hero Section",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "layout_section",
+    "appGenDemand": 540,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recrZ9BoIrxRN6LFG",
+        "title": "How to Convert Hover Interactions to Scroll Reveals in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recQShuHdRFlya6qh",
+        "title": "How to Build Two-Column Hero Sections with MCP in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recNMRCFmTwKGSD65",
+        "title": "How to Build a Responsive Hero Section with Background Video in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recbZuhpnzmLR75nn",
+        "name": "Hover",
+        "slug": "hover-com",
+        "url": "https://webflow.com/integrations/hover-com",
+        "tier": "B - Standard",
+        "published": true,
+        "clicks": 26,
+        "ctr": 0.0208,
+        "position": 8.6
+      }
+    ],
+    "buildWithCount": 3,
+    "worksWithCount": 1
+  },
+  {
+    "id": "reciiAcaIT9cBRcwH",
+    "key": "scroll_to_top",
+    "name": "Scroll-to-Top",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "animation_effect",
+    "appGenDemand": 400,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recFWdutJi5deAGXo",
+        "title": "How to Add a Scroll-to-Top Button in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recXdho9uxj6C3CR8",
+        "title": "How to Build a Floating Back-to-Top Button with Smooth Scroll in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recM8yeLEbsIXAxhv",
+        "title": "How to Show a Scroll-to-Top Button Only After Scrolling Down in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recj0UC6HxnYBlQLG",
+    "key": "lightbox",
+    "name": "Lightbox",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "animation_effect",
+    "appGenDemand": 400,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recbFV5RUcvYMJ0Ai",
+        "title": "How to Add Full CMS Lightbox in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recsiXTVgSGhrH2pU",
+        "title": "How to Display Lightbox Images as Squares in a Grid in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recQGplFuEIzDgg4J",
+        "title": "How to Use and Test the Webflow Lightbox Beta",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recdApxrRsPKz848X",
+        "title": "How to Fix Lightbox Images Not Showing on Mobile in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recSZ2Vdx6Chn5M8V",
+        "name": "Square",
+        "slug": "square",
+        "url": "https://webflow.com/integrations/square",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 306,
+        "ctr": 0.0243,
+        "position": 19.4
+      }
+    ],
+    "buildWithCount": 4,
+    "worksWithCount": 1
+  },
+  {
+    "id": "recDqtOvCPUZBfxk2",
+    "key": "command_palette",
+    "name": "Command Palette",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "interactive_widget",
+    "appGenDemand": 370,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recMyrrDgMKSqLXaQ",
+        "title": "How to Replace Search Bar Text with a Search Icon in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 50
+      },
+      {
+        "id": "recHyU61VvM7InD7Z",
+        "title": "How to Build a Keyboard-Triggered Search Overlay in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recoZbWBUXxfvZhmQ",
+        "title": "How to Add a Spotlight Search Component to a Webflow Site",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "receSKBFVwuDujMA5",
+    "key": "progress_bar",
+    "name": "Progress Bar",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "interactive_widget",
+    "appGenDemand": 370,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rec2QUFqM4PXBJWCO",
+        "title": "How to Build an Animated Progress Bar in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "reclhKI25smF88R6A",
+        "title": "How to Build a Scroll Progress Indicator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recbCU6C0pbseLITg",
+        "title": "How to Add a Multi-Step Form Progress Indicator in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recj5pQ7bOXRSKLWp",
+    "key": "popover",
+    "name": "Popover",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Low",
+    "appGenCategory": "interactive_widget",
+    "appGenDemand": 370,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rec3nB77xBu9sw4sj",
+        "title": "How to Build a CMS-Driven Google Map with Info Popups in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
+        "id": "recEwJiRGK7sFgVKY",
+        "title": "How to Build a Hover-Triggered Popover in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "rec92YsVpc6X6YM6v",
+        "title": "How to Build a CMS-Driven Info Popover for Directory Listings in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recaKcKx9HReQl5wz",
+        "name": "Popup",
+        "slug": "popup",
+        "url": "https://webflow.com/integrations/popup",
+        "tier": null,
+        "published": false,
+        "clicks": 0,
+        "ctr": 0,
+        "position": null
+      }
+    ],
+    "buildWithCount": 3,
+    "worksWithCount": 1
+  },
+  {
+    "id": "reckHRh33H2mdrjIN",
+    "key": "countdown",
+    "name": "Countdown Timer",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "interactive_widget",
+    "appGenDemand": 370,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recOKIF51MEyIuc1D",
+        "title": "How to Build a Countdown Timer in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "rec89fTHhgb3Zj1i6",
+        "title": "How to Add a Product Launch Countdown Timer to Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Marketer",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recuc53CIPUHe6J45",
+        "title": "How to Build an Event Countdown with Dynamic CMS Dates in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recA2NI3Z5SQlMOH3",
+    "key": "infinite_scroll",
+    "name": "Infinite Scroll",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "data_display",
+    "appGenDemand": 280,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recGSR4CzBLOVmHmK",
+        "title": "How to Add Infinite Scroll to a Webflow CMS Collection List",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "rec8rxns19EmB1rP1",
+        "title": "How to Add Seamless pagination with \"pjax\" in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recHyx3IXMQkkqViU",
+        "title": "How to Build a Load More Button for CMS Items in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recQTAP0qXQbCg18W",
+    "key": "chart",
+    "name": "Chart / Graph",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "High",
+    "appGenCategory": "data_visualization",
+    "appGenDemand": 280,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recvXhWdw16izRSBJ",
+        "title": "How to Add a Price Chart to a Webflow Site",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 140
+      },
+      {
+        "id": "recjOuwsQP14GLzkp",
+        "title": "How to Build a Website Flowchart in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 140
+      },
+      {
+        "id": "reca12xYsPpeBlDN4",
+        "title": "How to Fix Google Charts HTML Embed Not Displaying in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
+        "id": "recj8Z4ASVCczfy9D",
+        "title": "How to Fix Blurry Google Chart Embeds in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
+        "id": "recfoZyWBlLBM4VWs",
+        "title": "How to Create Inline Links and Formatting via the Webflow Designer API",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 50
+      },
+      {
+        "id": "recDoXw1efypk3y1E",
+        "title": "How to Build Charts from CMS Data with Chart.js in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "receQF682tPhMBUAC",
+        "title": "How to Fix Chart.js Display Issues in Webflow Embeds",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recfXxcbIRFVmCvv8",
+        "title": "How to Collaborate with Graphic Designers Using Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recm9eEinf3NJlJbX",
+        "title": "How to Fix Overlapping Rich Text in Webflow Typography Components",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recu9XLlXW3TzT9iC",
+        "title": "How to Build a Bar Chart from Div Elements in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 30
+      },
+      {
+        "id": "recH5JewDT3Gewe9O",
+        "title": "How to Build a Pie Chart with Hover Effects in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "recJNgUQXE8ERC6to",
+        "title": "How to Build a Responsive SVG Chart in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
+        "id": "rec0IQ4cQf5hu3giu",
+        "title": "How to Integrate Hygraph or Sanity.io with Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "rec27YS7s0ONlHSgs",
+        "title": "How to Build a Donut Chart in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "rec7CQQsrlC53KzH7",
+        "title": "How to Implement Chart.js in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recRZJdxsJp2gIemm",
+        "title": "How to Display a Date Range as a Gantt Chart in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recaceS1bqn75VXUE",
+        "title": "How to Fix Dynamic Chart References with getElementById in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recd4kWy1EkwbqMdV",
+        "title": "How to Fix Chart.js Not Rendering in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 0
+      },
+      {
+        "id": "recsvYcOjrkERcffi",
+        "title": "How to Fix Dynamic Chart Embeds Breaking on Publish in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T4",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recbZuhpnzmLR75nn",
+        "name": "Hover",
+        "slug": "hover-com",
+        "url": "https://webflow.com/integrations/hover-com",
+        "tier": "B - Standard",
+        "published": true,
+        "clicks": 26,
+        "ctr": 0.0208,
+        "position": 8.6
+      }
+    ],
+    "buildWithCount": 19,
+    "worksWithCount": 1
+  },
+  {
+    "id": "rectbLqskSrebLcZL",
+    "key": "star_rating",
+    "name": "Star Rating",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "data_display",
+    "appGenDemand": 280,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "rec1ARsj2zFdULRv5",
+        "title": "How to Fix Lottie Star Rating Animation Disappearing in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Designer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "rechzvifi4MKJO4QQ",
+        "title": "How to Build a Star Rating Component for Reviews in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      },
+      {
+        "id": "recJvKHAEC08rzClL",
+        "title": "How to Display CMS-Driven Star Ratings on Product Pages in Webflow",
+        "url": null,
+        "status": "Researched",
+        "tier": "T3",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 0
+      }
+    ],
+    "worksWith": [],
+    "buildWithCount": 3,
+    "worksWithCount": 0
+  },
+  {
+    "id": "recB7DllXkd1Ey3Hd",
+    "key": "file_upload",
+    "name": "File Upload",
+    "tier": "T2",
+    "status": "Planned",
+    "showcaseReadiness": "Medium",
+    "appGenCategory": "form_input",
+    "appGenDemand": 240,
+    "githubUrl": null,
+    "landingPageUrl": null,
+    "notes": null,
+    "buildWith": [
+      {
+        "id": "recdsQLHyKulGWvI3",
+        "title": "How to Add Custom Input Fields and File Uploads to Webflow Checkout",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 110
+      },
+      {
+        "id": "rec7YEBWkMvLCttUu",
+        "title": "How to Add File Upload to Webflow Forms on a CMS Plan",
+        "url": null,
+        "status": "Researched",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
+        "id": "recnWG5xOtv5xdkdD",
+        "title": "How to Work Around File Upload Limitations on the Webflow Basic Plan",
+        "url": null,
+        "status": "Researched",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      }
+    ],
+    "worksWith": [
+      {
+        "id": "recQV4XMEJ9auB2yq",
+        "name": "Chec",
+        "slug": "chec",
+        "url": "https://webflow.com/integrations/chec",
+        "tier": "C - Longtail",
+        "published": false,
+        "clicks": 4,
+        "ctr": 0.2353,
+        "position": 13.7
+      }
+    ],
+    "buildWithCount": 3,
+    "worksWithCount": 1
+  }
+]

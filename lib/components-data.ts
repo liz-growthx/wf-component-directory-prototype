@@ -3,55 +3,56 @@ export const categories: Record<string, Category> = {
     name: 'Layout & Navigation', emoji: '📁', slug: 'layout',
     desc: 'Components for organizing content and helping users move through your site.',
     components: [
-      { id: 'accordion', name: 'Accordion', tier: 'T1', jtbd: 10, icp: ['Builder', 'Designer'], emoji: '📂', desc: 'Collapsible content sections for FAQs, menus, and information hierarchy.' },
-      { id: 'tabs', name: 'Tabs', tier: 'T1', jtbd: 3, icp: ['Builder'], emoji: '📑', desc: 'Switch between grouped content panels without leaving the page.' },
-      { id: 'dropdown-menu', name: 'Dropdown Menu', tier: 'T1', jtbd: 4, icp: ['Builder'], emoji: '⬇️', desc: 'Contextual menus triggered by interaction, ideal for navigation and actions.' },
-      { id: 'breadcrumb', name: 'Breadcrumb', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '🔗', desc: 'Show users their location within a site hierarchy.' },
-      { id: 'hero-section', name: 'Hero Section', tier: 'T2', jtbd: 3, icp: ['Designer'], emoji: '🖼️', desc: 'Full-width introductory sections with headline, body, and CTA.' },
-      { id: 'infinite-scroll', name: 'Infinite Scroll', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '♾️', desc: 'Automatically load more content as the user scrolls to the bottom.' },
-      { id: 'scroll-to-top', name: 'Scroll-to-Top', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '⬆️', desc: 'Floating button that returns users to the top of long pages.' },
-      { id: 'command-palette', name: 'Command Palette', tier: 'T2', jtbd: 3, icp: ['Developer'], emoji: '⌨️', desc: 'Keyboard-first navigation overlay for power users and developer tools.' },
+      { id: 'accordion', airtableKey: 'accordion', name: 'Accordion', tier: 'T1', jtbd: 10, icp: ['Builder', 'Designer'], emoji: '📂', desc: 'Collapsible content sections for FAQs, menus, and information hierarchy.' },
+      { id: 'tabs', airtableKey: 'tabs', name: 'Tabs', tier: 'T1', jtbd: 3, icp: ['Builder'], emoji: '📑', desc: 'Switch between grouped content panels without leaving the page.' },
+      { id: 'dropdown-menu', airtableKey: 'dropdown_menu', name: 'Dropdown Menu', tier: 'T1', jtbd: 4, icp: ['Builder'], emoji: '⬇️', desc: 'Contextual menus triggered by interaction, ideal for navigation and actions.' },
+      { id: 'breadcrumb', airtableKey: 'breadcrumb', name: 'Breadcrumb', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '🔗', desc: 'Show users their location within a site hierarchy.' },
+      { id: 'hero-section', airtableKey: 'hero_section', name: 'Hero Section', tier: 'T2', jtbd: 3, icp: ['Designer'], emoji: '🖼️', desc: 'Full-width introductory sections with headline, body, and CTA.' },
+      { id: 'infinite-scroll', airtableKey: 'infinite_scroll', name: 'Infinite Scroll', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '♾️', desc: 'Automatically load more content as the user scrolls to the bottom.' },
+      { id: 'scroll-to-top', airtableKey: 'scroll_to_top', name: 'Scroll-to-Top', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '⬆️', desc: 'Floating button that returns users to the top of long pages.' },
+      { id: 'command-palette', airtableKey: 'command_palette', name: 'Command Palette', tier: 'T2', jtbd: 3, icp: ['Developer'], emoji: '⌨️', desc: 'Keyboard-first navigation overlay for power users and developer tools.' },
     ]
   },
   forms: {
     name: 'Forms & Input', emoji: '📝', slug: 'forms',
     desc: 'Capture data, accept bookings, and build interactive tools for your users.',
     components: [
-      { id: 'date-picker', name: 'Date Picker', tier: 'T1', jtbd: 16, icp: ['Builder'], emoji: '📅', desc: 'Accessible date selection for booking forms, event registration, and scheduling.' },
-      { id: 'multi-step-form', name: 'Multi-Step Form', tier: 'T1', jtbd: 5, icp: ['Builder'], emoji: '📋', desc: 'Break long forms into guided steps to improve completion rates.' },
-      { id: 'pricing-calculator', name: 'Pricing Calculator', tier: 'T1', jtbd: 6, icp: ['Builder'], emoji: '🧮', desc: 'Interactive calculators for pricing, quotes, and ROI estimation.' },
-      { id: 'file-upload', name: 'File Upload', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '📤', desc: 'Drag-and-drop file upload with progress feedback and validation.' },
-      { id: 'star-rating', name: 'Star Rating', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '⭐', desc: 'Collect ratings and reviews from users with interactive star inputs.' },
-      { id: 'toggle-switch', name: 'Toggle / Switch', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '🔘', desc: 'Binary on/off controls for settings, preferences, and feature flags.' },
+      { id: 'date-picker', airtableKey: 'date_picker', name: 'Date Picker', tier: 'T1', jtbd: 16, icp: ['Builder'], emoji: '📅', desc: 'Accessible date selection for booking forms, event registration, and scheduling.' },
+      { id: 'multi-step-form', airtableKey: 'multi_step_form', name: 'Multi-Step Form', tier: 'T1', jtbd: 5, icp: ['Builder'], emoji: '📋', desc: 'Break long forms into guided steps to improve completion rates.' },
+      { id: 'pricing-calculator', airtableKey: 'pricing_calculator', name: 'Pricing Calculator', tier: 'T1', jtbd: 6, icp: ['Builder'], emoji: '🧮', desc: 'Interactive calculators for pricing, quotes, and ROI estimation.' },
+      { id: 'file-upload', airtableKey: 'file_upload', name: 'File Upload', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '📤', desc: 'Drag-and-drop file upload with progress feedback and validation.' },
+      { id: 'star-rating', airtableKey: 'star_rating', name: 'Star Rating', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '⭐', desc: 'Collect ratings and reviews from users with interactive star inputs.' },
+      { id: 'toggle-switch', airtableKey: 'toggle_switch', name: 'Toggle / Switch', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '🔘', desc: 'Binary on/off controls for settings, preferences, and feature flags.' },
     ]
   },
   data: {
     name: 'Data & Media', emoji: '📊', slug: 'data',
     desc: 'Display, visualize, and showcase content from your CMS or external data sources.',
     components: [
-      { id: 'data-table', name: 'Data Table', tier: 'T1', jtbd: 14, icp: ['Builder', 'Developer'], emoji: '🗃️', desc: 'Sortable, filterable tables for displaying CMS data, pricing, or records.' },
-      { id: 'carousel-slider', name: 'Carousel / Slider', tier: 'T1', jtbd: 12, icp: ['Builder', 'Designer'], emoji: '🎠', desc: 'Auto-playing or manually navigated content carousels for galleries and testimonials.' },
-      { id: 'badge-tag', name: 'Badge / Tag', tier: 'T1', jtbd: 4, icp: ['Builder'], emoji: '🏷️', desc: 'Compact labels for status, categories, and contextual metadata.' },
-      { id: 'chart-graph', name: 'Chart / Graph', tier: 'T2', jtbd: 19, icp: ['Builder'], emoji: '📈', desc: 'Interactive charts and graphs for data visualization from any source.' },
-      { id: 'lightbox', name: 'Lightbox', tier: 'T2', jtbd: 4, icp: ['Builder'], emoji: '🔍', desc: 'Full-screen image and video viewer with navigation and zoom.' },
-      { id: 'progress-bar', name: 'Progress Bar', tier: 'T2', jtbd: 3, icp: ['Designer'], emoji: '⏳', desc: 'Visual progress indicators for onboarding flows, goals, and loading states.' },
+      { id: 'data-table', airtableKey: 'data_table', name: 'Data Table', tier: 'T1', jtbd: 14, icp: ['Builder', 'Developer'], emoji: '🗃️', desc: 'Sortable, filterable tables for displaying CMS data, pricing, or records.' },
+      { id: 'carousel-slider', airtableKey: 'carousel', name: 'Carousel / Slider', tier: 'T1', jtbd: 12, icp: ['Builder', 'Designer'], emoji: '🎠', desc: 'Auto-playing or manually navigated content carousels for galleries and testimonials.' },
+      { id: 'badge-tag', airtableKey: 'badge', name: 'Badge / Tag', tier: 'T1', jtbd: 4, icp: ['Builder'], emoji: '🏷️', desc: 'Compact labels for status, categories, and contextual metadata.' },
+      { id: 'chart-graph', airtableKey: 'chart', name: 'Chart / Graph', tier: 'T2', jtbd: 19, icp: ['Builder'], emoji: '📈', desc: 'Interactive charts and graphs for data visualization from any source.' },
+      { id: 'lightbox', airtableKey: 'lightbox', name: 'Lightbox', tier: 'T2', jtbd: 4, icp: ['Builder'], emoji: '🔍', desc: 'Full-screen image and video viewer with navigation and zoom.' },
+      { id: 'progress-bar', airtableKey: 'progress_bar', name: 'Progress Bar', tier: 'T2', jtbd: 3, icp: ['Designer'], emoji: '⏳', desc: 'Visual progress indicators for onboarding flows, goals, and loading states.' },
     ]
   },
   feedback: {
     name: 'Feedback & Overlays', emoji: '💬', slug: 'feedback',
     desc: 'Show contextual information, confirmations, and urgency signals to your users.',
     components: [
-      { id: 'modal-dialog', name: 'Modal / Dialog', tier: 'T1', jtbd: 28, icp: ['Builder'], emoji: '🪟', desc: 'Focused overlay dialogs for confirmations, lead capture, and video lightboxes.' },
-      { id: 'tooltip', name: 'Tooltip', tier: 'T1', jtbd: 3, icp: ['Builder'], emoji: '💡', desc: 'Hover-triggered contextual hints for icons, buttons, and form fields.' },
-      { id: 'alert-toast', name: 'Alert / Toast', tier: 'T2', jtbd: 4, icp: ['Developer'], emoji: '🔔', desc: 'Non-blocking notification messages for success, error, and info states.' },
-      { id: 'popover', name: 'Popover', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '💭', desc: 'Floating content containers triggered by click, for menus and rich tooltips.' },
-      { id: 'countdown-timer', name: 'Countdown Timer', tier: 'T2', jtbd: 3, icp: ['Builder', 'Designer'], emoji: '⏱️', desc: 'Create urgency with live countdown timers for sales, events, and launches.' },
+      { id: 'modal-dialog', airtableKey: 'modal', name: 'Modal / Dialog', tier: 'T1', jtbd: 28, icp: ['Builder'], emoji: '🪟', desc: 'Focused overlay dialogs for confirmations, lead capture, and video lightboxes.' },
+      { id: 'tooltip', airtableKey: 'tooltip', name: 'Tooltip', tier: 'T1', jtbd: 3, icp: ['Builder'], emoji: '💡', desc: 'Hover-triggered contextual hints for icons, buttons, and form fields.' },
+      { id: 'alert-toast', airtableKey: 'alert_toast', name: 'Alert / Toast', tier: 'T2', jtbd: 4, icp: ['Developer'], emoji: '🔔', desc: 'Non-blocking notification messages for success, error, and info states.' },
+      { id: 'popover', airtableKey: 'popover', name: 'Popover', tier: 'T2', jtbd: 3, icp: ['Builder'], emoji: '💭', desc: 'Floating content containers triggered by click, for menus and rich tooltips.' },
+      { id: 'countdown-timer', airtableKey: 'countdown', name: 'Countdown Timer', tier: 'T2', jtbd: 3, icp: ['Builder', 'Designer'], emoji: '⏱️', desc: 'Create urgency with live countdown timers for sales, events, and launches.' },
     ]
   }
 };
 
 export interface Component {
   id: string;
+  airtableKey: string;
   name: string;
   tier: 'T1' | 'T2';
   jtbd: number;
@@ -187,4 +188,79 @@ export function getEcosystem(componentId: string) {
 
 export function getProps(componentId: string) {
   return componentProps[componentId] ?? componentProps['_default'];
+}
+
+
+// ============================================================================
+// AIRTABLE JOIN LAYER
+// ============================================================================
+// Live data synced from Airtable via `node scripts/sync-airtable.mjs`.
+// This is where the ecosystem flywheel becomes real:
+//   • buildWith → JTBD articles with their actual webflow.com/blog URLs
+//   • worksWith → integration pages with their webflow.com/integrations/[slug] URLs
+
+import airtableData from './airtable-data.json';
+
+export interface AirtableComponent {
+  id: string;
+  key: string;
+  name: string;
+  tier: 'T1' | 'T2' | null;
+  status: string | null;
+  showcaseReadiness: 'High' | 'Medium' | 'Low' | null;
+  appGenCategory: string | null;
+  appGenDemand: number;
+  githubUrl: string | null;
+  landingPageUrl: string | null;
+  notes: string | null;
+  buildWith: BuildWithItem[];
+  worksWith: WorksWithItem[];
+  buildWithCount: number;
+  worksWithCount: number;
+}
+
+export interface BuildWithItem {
+  id: string;
+  title: string;
+  url: string | null;
+  status: string | null;
+  tier: 'T1' | 'T2' | 'T3' | 'T4' | null;
+  icp: string | null;
+  intent: string | null;
+  searchVolume: number;
+}
+
+export interface WorksWithItem {
+  id: string;
+  name: string;
+  slug: string | null;
+  url: string | null;
+  tier: string | null;
+  published: boolean;
+  clicks: number;
+  ctr: number;
+  position: number | null;
+}
+
+const airtableByKey: Record<string, AirtableComponent> = {};
+for (const c of airtableData as AirtableComponent[]) {
+  if (c.key) airtableByKey[c.key] = c;
+}
+
+export function getAirtable(airtableKey: string): AirtableComponent | undefined {
+  return airtableByKey[airtableKey];
+}
+
+export function getAirtableForComponent(component: Component): AirtableComponent | undefined {
+  return airtableByKey[component.airtableKey];
+}
+
+export function getBuildWith(component: Component, limit = 5): BuildWithItem[] {
+  const a = getAirtableForComponent(component);
+  return (a?.buildWith ?? []).slice(0, limit);
+}
+
+export function getWorksWith(component: Component, limit = 8): WorksWithItem[] {
+  const a = getAirtableForComponent(component);
+  return (a?.worksWith ?? []).slice(0, limit);
 }

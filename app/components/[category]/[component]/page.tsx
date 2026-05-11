@@ -7,7 +7,7 @@ import InstallBlock from '@/components/detail/InstallBlock';
 import PropsTable from '@/components/detail/PropsTable';
 import A11yNote from '@/components/detail/A11yNote';
 import ZoneCard from '@/components/detail/ZoneCard';
-import { getCategoryBySlug, getComponentById, getEcosystem, getProps } from '@/lib/components-data';
+import { getCategoryBySlug, getComponentById, getProps, getBuildWith, getWorksWith, getAirtableForComponent } from '@/lib/components-data';
 import Link from 'next/link';
 
 interface Props {
@@ -19,7 +19,9 @@ export default function ComponentDetailPage({ params }: Props) {
   const component = getComponentById(params.category, params.component);
   if (!category || !component) notFound();
 
-  const ecosystem = getEcosystem(component.id);
+  const buildWith = getBuildWith(component);
+  const worksWith = getWorksWith(component);
+  const airtable = getAirtableForComponent(component);
   const props = getProps(component.id);
 
   return (
@@ -51,8 +53,8 @@ export default function ComponentDetailPage({ params }: Props) {
 
             {/* Right sidebar */}
             <div>
-              <ZoneCard type="buildWith" buildWith={ecosystem.buildWith} />
-              <ZoneCard type="worksWith" worksWith={ecosystem.worksWith} />
+              <ZoneCard type="buildWith" buildWith={buildWith} />
+              <ZoneCard type="worksWith" worksWith={worksWith} />
             </div>
           </div>
         </main>
