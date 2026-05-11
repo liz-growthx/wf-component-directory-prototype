@@ -49,7 +49,7 @@ console.log(`  → ${jtbds.length} JTBDs`);
 
 console.log('Fetching Integration Pages…');
 const integrations = await fetchAll(TABLES.integrations, {
-  fields: ['Name', 'Integration Name', 'Slug', 'Tier', 'Status', 'GSC Clicks', 'GSC CTR', 'GSC Position'],
+  fields: ['Name', 'Integration Name', 'Slug', 'Live Page', 'Tool URL', 'Tier', 'Status', 'GSC Clicks', 'GSC CTR', 'GSC Position'],
 });
 console.log(`  → ${integrations.length} integration pages`);
 
@@ -59,8 +59,17 @@ const integrationById = Object.fromEntries(integrations.map(i => [i.id, i]));
 const publishedStatuses = new Set(['07 - Published', '08 - Refreshing', '10 - Refreshed']);
 
 function integrationUrl(intRec) {
-  const slug = intRec.fields['Slug'];
-  return slug ? `https://webflow.com/integrations/${slug}` : null;
+  const f = intRec.fields;
+  // 1) Live Page field — the canonical URL when populated
+  if (f['Live Page'] && /^https?:\/\//.test(f['Live Page'])) return f['Live Page'];
+  // 2) Construct from Slug
+  if (f['Slug']) return `https://webflow.com/integrations/${f['Slug']}`;
+  // 3) Construct from Integration Name (lowercased slug-like value)
+  if (f['Integration Name']) {
+    const slugLike = String(f['Integration Name']).toLowerCase().trim().replace(/\s+/g, '-');
+    return `https://webflow.com/integrations/${slugLike}`;
+  }
+  return null;
 }
 
 function bestName(rec) {
@@ -98,7 +107,7 @@ const out = components.map(c => {
       intMap.set(id, {
         id: i.id,
         name: bestName(i),
-        slug: i.fields['Slug'] || null,
+        slug: i.fields['Slug'] || i.fields['Integration Name'] || null,
         url: integrationUrl(i),
         tier: i.fields['Tier'] || null,
         published: isPublished,
