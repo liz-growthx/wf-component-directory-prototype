@@ -367,16 +367,6 @@
         "searchVolume": 110
       },
       {
-        "id": "recZWusJscpUGCgFc",
-        "title": "How to Create a Custom Modal in Webflow",
-        "url": null,
-        "status": "Parked",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 110
-      },
-      {
         "id": "recYaQlcLfv6ib8lO",
         "title": "How to Add Cookie-Based Display Control to a Webflow Modal",
         "url": null,
@@ -677,7 +667,7 @@
         "position": null
       }
     ],
-    "buildWithCount": 28,
+    "buildWithCount": 27,
     "worksWithCount": 8
   },
   {
