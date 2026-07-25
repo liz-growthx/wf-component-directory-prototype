@@ -590,6 +590,17 @@
         "position": 13.6
       },
       {
+        "id": "recli8Qv3R6VVsQ69",
+        "name": "Vimeo",
+        "slug": "vimeo",
+        "url": "https://webflow.com/integrations/vimeo",
+        "tier": "A - Core",
+        "published": true,
+        "clicks": 745,
+        "ctr": 0.0638,
+        "position": 10.5
+      },
+      {
         "id": "recSZ2Vdx6Chn5M8V",
         "name": "Square",
         "slug": "square",
@@ -632,17 +643,6 @@
         "clicks": 26,
         "ctr": 0.0208,
         "position": 8.6
-      },
-      {
-        "id": "recli8Qv3R6VVsQ69",
-        "name": "Vimeo",
-        "slug": "vimeo",
-        "url": "https://webflow.com/integrations/vimeo",
-        "tier": "A - Core",
-        "published": false,
-        "clicks": 745,
-        "ctr": 0.0638,
-        "position": 10.5
       },
       {
         "id": "recQV4XMEJ9auB2yq",
