@@ -904,6 +904,16 @@
     "notes": null,
     "buildWith": [
       {
+        "id": "recpu54DmryE3WTY3",
+        "title": "How to Review Membership Applications with Airtable in Webflow Cloud",
+        "url": "https://webflow.com/blog/airtable-membership-review-webflow-cloud",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 110
+      },
+      {
         "id": "recrfw8kfBtt3QhbO",
         "title": "How to Automate E-commerce Orders from Webflow to Airtable via Zapier",
         "url": "https://webflow.com/blog/automate-webflow-orders-airtable-zapier",
@@ -962,16 +972,6 @@
         "icp": "Developer",
         "intent": "Build",
         "searchVolume": 90
-      },
-      {
-        "id": "recpu54DmryE3WTY3",
-        "title": "How to Review Membership Applications with Airtable in Webflow Cloud",
-        "url": null,
-        "status": "7. Ready to Publish",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 110
       },
       {
         "id": "rec8MQEcgUpWA1RqJ",
