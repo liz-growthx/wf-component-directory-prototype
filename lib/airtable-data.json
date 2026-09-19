@@ -697,7 +697,7 @@
         "id": "recVocGblKlTI9ReJ",
         "title": "How to Integrate Owl Carousel with Webflow Cloud",
         "url": null,
-        "status": "7. Ready to Publish",
+        "status": "6. Reviewed",
         "tier": "T1",
         "icp": "Builder",
         "intent": "Troubleshoot",
@@ -934,6 +934,26 @@
         "searchVolume": 90
       },
       {
+        "id": "reccTnmFTwBunJ4MA",
+        "title": "How to Add Airtable as a Database for Content in Webflow Cloud",
+        "url": "https://webflow.com/blog/airtable-content-database-webflow-cloud",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
+        "id": "recSXbtYbxkWx2VpY",
+        "title": "How to Add Airtable Data in Webflow Cloud",
+        "url": "https://webflow.com/blog/airtable-data-webflow-cloud",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
         "id": "rec1aBIPPaKr5DqSz",
         "title": "How to Fix Zapier-to-Airtable Data Sync in Webflow",
         "url": "https://webflow.com/blog/fix-zapier-airtable-webflow-sync",
@@ -962,26 +982,6 @@
         "icp": "Builder",
         "intent": "Build",
         "searchVolume": 110
-      },
-      {
-        "id": "reccTnmFTwBunJ4MA",
-        "title": "How to Add Airtable as a Database for Content in Webflow Cloud",
-        "url": null,
-        "status": "7. Ready to Publish",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 90
-      },
-      {
-        "id": "recSXbtYbxkWx2VpY",
-        "title": "How to Add Airtable Data in Webflow Cloud",
-        "url": null,
-        "status": "7. Ready to Publish",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 90
       },
       {
         "id": "recfUEOSWxD7CP2j8",
