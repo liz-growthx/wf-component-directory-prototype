@@ -697,7 +697,7 @@
         "id": "recVocGblKlTI9ReJ",
         "title": "How to Integrate Owl Carousel with Webflow Cloud",
         "url": null,
-        "status": "3. In Production",
+        "status": "7. Ready to Publish",
         "tier": "T1",
         "icp": "Builder",
         "intent": "Troubleshoot",
@@ -1198,7 +1198,7 @@
       },
       {
         "id": "rec3R96wChdPDq4pS",
-        "title": "How to Build a User Dashboard with Login and Booking in Webflow",
+        "title": "How to Build a User Dashboard with Login and Booking in Webflow (Webflow Cloud)",
         "url": null,
         "status": "3. In Production",
         "tier": "T2",
