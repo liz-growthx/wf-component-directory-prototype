@@ -684,6 +684,16 @@
     "notes": null,
     "buildWith": [
       {
+        "id": "recVocGblKlTI9ReJ",
+        "title": "How to Integrate Owl Carousel with Webflow Cloud",
+        "url": "https://webflow.com/blog/owl-carousel-webflow-cloud",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Troubleshoot",
+        "searchVolume": 480
+      },
+      {
         "id": "recr64jqjBVf8DGUt",
         "title": "How to Add bxSlider as a Ticker-Style Carousel in Webflow",
         "url": null,
@@ -692,16 +702,6 @@
         "icp": "Builder",
         "intent": "Build",
         "searchVolume": 720
-      },
-      {
-        "id": "recVocGblKlTI9ReJ",
-        "title": "How to Integrate Owl Carousel with Webflow Cloud",
-        "url": null,
-        "status": "7. Ready to Publish",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Troubleshoot",
-        "searchVolume": 480
       },
       {
         "id": "recQgS4QaYbtyzxEt",
@@ -1117,6 +1117,16 @@
         "searchVolume": 140
       },
       {
+        "id": "rec3R96wChdPDq4pS",
+        "title": "How to Build a User Dashboard with Login and Booking in Webflow (Webflow Cloud)",
+        "url": "https://webflow.com/blog/user-dashboard-login-booking-webflow",
+        "status": "8. Published",
+        "tier": "T2",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 20
+      },
+      {
         "id": "rech500hxacTqI8Of",
         "title": "How to Build a Scheduling System in Webflow (Calendly Alternatives)",
         "url": null,
@@ -1191,16 +1201,6 @@
         "title": "How to Set Up a Booking System in Webflow",
         "url": null,
         "status": "1. Researched",
-        "tier": "T2",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 20
-      },
-      {
-        "id": "rec3R96wChdPDq4pS",
-        "title": "How to Build a User Dashboard with Login and Booking in Webflow (Webflow Cloud)",
-        "url": null,
-        "status": "3. In Production",
         "tier": "T2",
         "icp": "Builder",
         "intent": "Build",
