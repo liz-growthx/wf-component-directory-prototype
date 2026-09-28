@@ -995,9 +995,9 @@
       },
       {
         "id": "recopGYf3YLs7nvqC",
-        "title": "How to Batch Import Entries to Webflow CMS Using Zapier & Airtable (& maybe Postman)",
+        "title": "How to Batch Import Entries to Webflow CMS Using Zapier & Airtable (& maybe Postman) (Webflow Cloud)",
         "url": null,
-        "status": "1. Researched",
+        "status": "3. In Production",
         "tier": "T1",
         "icp": "Developer",
         "intent": "Build",
@@ -1148,9 +1148,9 @@
       },
       {
         "id": "reccyziHQKCgIo66g",
-        "title": "How to Build Multi-user Google Calendar Booking in Webflow",
+        "title": "How to Build Multi-user Google Calendar Booking in Webflow (Webflow Cloud)",
         "url": null,
-        "status": "1. Researched",
+        "status": "3. In Production",
         "tier": "T1",
         "icp": "Builder",
         "intent": "Build",
