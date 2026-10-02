@@ -974,6 +974,16 @@
         "searchVolume": 90
       },
       {
+        "id": "recopGYf3YLs7nvqC",
+        "title": "How to Batch Import Entries to Webflow CMS Using Zapier & Airtable (& maybe Postman) (Webflow Cloud)",
+        "url": "https://webflow.com/blog/batch-import-webflow-cms-zapier-airtable",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Developer",
+        "intent": "Build",
+        "searchVolume": 90
+      },
+      {
         "id": "rec8MQEcgUpWA1RqJ",
         "title": "How to Embed a Resizable OpenStreetMap in Webflow",
         "url": null,
@@ -991,16 +1001,6 @@
         "tier": "T1",
         "icp": "Builder",
         "intent": "Troubleshoot",
-        "searchVolume": 90
-      },
-      {
-        "id": "recopGYf3YLs7nvqC",
-        "title": "How to Batch Import Entries to Webflow CMS Using Zapier & Airtable (& maybe Postman) (Webflow Cloud)",
-        "url": null,
-        "status": "3. In Production",
-        "tier": "T1",
-        "icp": "Developer",
-        "intent": "Build",
         "searchVolume": 90
       },
       {
@@ -1117,6 +1117,16 @@
         "searchVolume": 140
       },
       {
+        "id": "reccyziHQKCgIo66g",
+        "title": "How to Build Multi-user Google Calendar Booking in Webflow (Webflow Cloud)",
+        "url": "https://webflow.com/blog/multi-user-google-calendar-booking-webflow",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 70
+      },
+      {
         "id": "rec3R96wChdPDq4pS",
         "title": "How to Build a User Dashboard with Login and Booking in Webflow (Webflow Cloud)",
         "url": "https://webflow.com/blog/user-dashboard-login-booking-webflow",
@@ -1145,16 +1155,6 @@
         "icp": "Builder",
         "intent": "Troubleshoot",
         "searchVolume": 140
-      },
-      {
-        "id": "reccyziHQKCgIo66g",
-        "title": "How to Build Multi-user Google Calendar Booking in Webflow (Webflow Cloud)",
-        "url": null,
-        "status": "3. In Production",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 70
       },
       {
         "id": "recByUr1IbgPOvg7U",
