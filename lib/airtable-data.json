@@ -2319,8 +2319,8 @@
       {
         "id": "recdsQLHyKulGWvI3",
         "title": "How to Add Custom Input Fields and File Uploads to Webflow Checkout",
-        "url": null,
-        "status": "3. In Production",
+        "url": "https://webflow.com/blog/custom-checkout-uploads-webflow-cloud",
+        "status": "8. Published",
         "tier": "T1",
         "icp": "Builder",
         "intent": "Troubleshoot",
