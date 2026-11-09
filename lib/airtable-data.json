@@ -1127,6 +1127,16 @@
         "searchVolume": 70
       },
       {
+        "id": "rec0klJFX1Pnr4HLY",
+        "title": "How to Build a Booking Calendar with Payments in Webflow",
+        "url": "https://webflow.com/blog/stripe-booking-calendar-webflow-cloud",
+        "status": "8. Published",
+        "tier": "T1",
+        "icp": "Builder",
+        "intent": "Build",
+        "searchVolume": 40
+      },
+      {
         "id": "rec3R96wChdPDq4pS",
         "title": "How to Build a User Dashboard with Login and Booking in Webflow (Webflow Cloud)",
         "url": "https://webflow.com/blog/user-dashboard-login-booking-webflow",
@@ -1165,16 +1175,6 @@
         "icp": "Builder",
         "intent": "Build",
         "searchVolume": 70
-      },
-      {
-        "id": "rec0klJFX1Pnr4HLY",
-        "title": "How to Build a Booking Calendar with Payments in Webflow",
-        "url": null,
-        "status": "7. Ready to Publish",
-        "tier": "T1",
-        "icp": "Builder",
-        "intent": "Build",
-        "searchVolume": 40
       },
       {
         "id": "recrDoXiaRpdKOnrx",
